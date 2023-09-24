@@ -16,6 +16,7 @@ function sendJsonData(){
         redirect: "follow", 
         body: JSON.stringify({name: "Palepu"}), 
       })
+    console.log("Palepu Added")
     }
 
 document.getElementById("btn1").addEventListener("click", sendJsonData)
