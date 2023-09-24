@@ -17,7 +17,7 @@ function sendJsonData(){
         },
         */
         redirect: "follow", // manual, *follow, error
-        body: JSON.stringify({name: "Ranganadha"}), // body data type must match "Content-Type" header
+        body: JSON.stringify({name: "Palepu"}), // body data type must match "Content-Type" header
       })
     }
 
